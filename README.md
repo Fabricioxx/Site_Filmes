@@ -27,7 +27,7 @@
 
             ```
 
-6 -
+6 - Adicionado coleção de componentes de navegação **react-router-dom** usando o comando **npm install react-router-dom** para utilizar rotas e manipular a navegação do aplicativo.
 
 
 
