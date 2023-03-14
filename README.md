@@ -19,10 +19,9 @@
 
 4 - Para cada componente da pasta foi criado um arquivo chamado **index.js** e um **css** com o nome do componente.
 
-5 - Para estilizar melhor a pagina foi intalado pelo terminal do VScode o bootstrap com o comando **npm install bootstrap**
+5 - Para estilizar melhor a pagina foi intalado pelo terminal do VScode o bootstrap com o comando **npm install bootstrap**, E Dentro do **src/index.js** foi importado o bootstrap.
   
-            - E Dentro do src/index.js foi importado o bootstrap
-            ```
+            ```javascript
                 import 'bootstrap/dist/css/bootstrap.css';
 
             ```
