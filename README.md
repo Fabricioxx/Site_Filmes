@@ -1,3 +1,38 @@
+## Filmes
+
+
+* Node.Js
+* React
+* Bootstrap
+* Vscode
+
+-------------------------------------------------------------------
+
+### passo a passo
+
+
+1- criado o projeto com o comando **npx create-react-app filmes**.
+
+2 - Crie uma pasta dentro de SRC chamado **components** (para criar os components da aplicação).
+
+3 - Dentro da pasta **components** criar as pastas para cada componente **Movie**,**Header**,**Footer**,**Title**.
+
+4 - Para cada componente da pasta foi criado um arquivo chamado **index.js** e um **css** com o nome do componente.
+
+5 - Para estilizar melhor a pagina foi intalado pelo terminal do VScode o bootstrap com o comando **npm install bootstrap**
+  
+            - E Dentro do src/index.js foi importado o bootstrap
+            ```
+                import 'bootstrap/dist/css/bootstrap.css';
+
+            ```
+
+6 -
+
+
+
+
+---------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
