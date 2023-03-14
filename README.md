@@ -21,10 +21,13 @@
 
 5 - Para estilizar melhor a pagina foi intalado pelo terminal do VScode o bootstrap com o comando **npm install bootstrap**, E Dentro do **src/index.js** foi importado o bootstrap.
   
-            ```javascript
-                import 'bootstrap/dist/css/bootstrap.css';
+   ```javascript
+            
+        import 'bootstrap/dist/css/bootstrap.css';
+        
+        
 
-            ```
+  ```
 
 6 - Adicionado coleção de componentes de navegação **react-router-dom** usando o comando **npm install react-router-dom** para utilizar rotas e manipular a navegação do aplicativo.
 
