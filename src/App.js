@@ -1,24 +1,27 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Title from './components/Title';
+import Movie from './components/Movie';
+import Footer from './components/Footer';
 
+// função que retorna o que será exibido na tela (App é o componente principal)
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+    
+       {/* <Router> - para poder adicionar os componentes, precisa do impot para usar essa tag  */}
+       {/* componetes que serão exibidos na tela  */}
+      <Header/>
+      <Title/>
+      <Movie/>
+      <Footer/>
+      
+    
+
+    </Router>
   );
 }
 

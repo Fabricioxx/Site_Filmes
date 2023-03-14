@@ -29,6 +29,26 @@
 
 6 - Adicionado coleção de componentes de navegação **react-router-dom** usando o comando **npm install react-router-dom** para utilizar rotas e manipular a navegação do aplicativo.
 
+7 - feito o Import do **react-router-dom** no App.js e a tag <Router></Router> no componente App.js para poder adicionar varios componentes dentro dele e criar as paginas.
+
+   ```javascript
+
+     import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+     
+   ```
+
+   8 - Na pasta public foi criado as pastas **assets/images** para adicionar arquivos de imagens para serem usados no projeto de filme
+
+   9 - foi copiado do site do bootstrap exemplos de estruturas HTML prontas de header,footers,Titles,Cards para adicionar aos respectivos componentes
+
+   10 - criado um array no componente Movies para servir como a base de dados para executar o Map com as informação dos filmes.
+
+   
+
+
+
+
+
 
 
 
