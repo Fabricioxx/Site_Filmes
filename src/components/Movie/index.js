@@ -4,19 +4,19 @@ import "./Movie.css";
 // substituir esse array por um array vazio [] e fazer a requisição para a API
 const filmes = [{
   "nome": "Vingadores",
-  "duracao": "2H30",
+  "genero": "Ação/Nerd",
   "foto": "vingadores1.jpg",
   "ano": 2010
 },
 {
   "nome": "Vingadores 2",
-  "duracao": "2H30",
+  "genero": "Ação/Nerd",
   "foto": "vingadores2.jpg",
   "ano": 2014
 },
 {
   "nome": "Vingadores 3",
-  "duracao": "2H30",
+  "genero": "Ação/Nerd",
   "foto": "vingadores33.jpg",
   "ano": 2015
 }
@@ -38,11 +38,7 @@ export default function Movie() {
               <img src={'/assets/images/' + filme.foto} alt={filme.nome} className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">{filme.nome} ({filme.ano}) </h5>
-                <p>Sinopse</p>
-                <p className="card-text">{filme.descricao}</p>
-                <p>{filme.duracao}</p>
                 <p>{filme.genero}</p>
-                <p>{filme.nota}</p>
                 <a
                   href={`/detalhes/${filme.nome}`}
                 >

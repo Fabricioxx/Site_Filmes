@@ -45,7 +45,7 @@ function Planos(){
                   <p className="card-text">{plano.detalhes}</p>
                   <p>R$ {plano.preco.toLocaleString('pt-BR')}</p>
 
-                  <a href={`/detalhes/${plano.nome}`} >
+                  <a href={`#`} >
                     <div className="btn btn-primary">
                       Adquirir
                     </div>
@@ -53,6 +53,7 @@ function Planos(){
                 </div>
               </div>
             </div>
+            
           ))}
   
           {/* fim do map ------------------------*/}
@@ -60,6 +61,14 @@ function Planos(){
         </div>
       </div>
     )   
+
+
+
+
+
 }
+
+
+
  
 export default Planos;
